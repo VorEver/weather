@@ -1,0 +1,46 @@
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<link rel="icon" type="image/png" href="favicon-32x32.png" sizes="32x32" />
+		<link rel="icon" type="image/png" href="favicon-16x16.png" sizes="16x16" />
+		<link href="https://fonts.googleapis.com/css?family=Cabin" rel="stylesheet">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+		<link rel="stylesheet" href="style.css" type="text/css">
+		<link rel="stylesheet" href="./css/weather-icons.min.css">
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		<script src="script.js"></script>
+	</head>
+	<body>
+		<div class="box container text-center">
+  		<div class="border">
+    		<h1>Current<br />Weather</h1>
+				<p>created by j-mag guthrie<br />
+				a <a href="https://freecodecamp.org" target="_blank">FreeCodeCamp.org</a> project</p>
+	  	</div> <!-- border -->
+  	  <div class="row">
+				<div class="col-sm-4"></div>
+    		<div class="col-sm-2 half">
+         	<h1 id="temp"></h1>
+    	  	<p id="summary"></p>
+    		  <p id="wind"></p>
+    	  	<p id="humidity"></p>
+				</div> <!-- col-sm-2 -->
+				<div class="col-sm-2">
+  	 			<h1 id="icons"></h1>
+				</div> <!-- col-sm-2 --> 
+				<div class="col-sm-4"></div>
+			</div> <!-- row -->
+			<div class="row">
+				<div class="col-sm-2"></div>
+				<div class="col-sm-8">
+					<p>
+						<button id="imperial" class="btn-units">Imperial</button>
+						<button id="metric" class="btn-units">Metric</button>
+					</p>
+				</div> <!-- col-sm-8 -->
+				<div class="col-sm-2"></div>
+			</div> <!-- row -->
+		</div> <!-- box -->
+  </body>
+</html>
