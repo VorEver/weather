@@ -2,7 +2,7 @@
 
 Free Code Camp Weather app.
 
-https://baseballpoetess.github.io/weather
+https://vorever.github.io/weather
 
 
 # Icons by
